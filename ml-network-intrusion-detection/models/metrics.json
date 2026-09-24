@@ -1,0 +1,73 @@
+{
+  "dataset": "NSL-KDD KDDTrain+ / KDDTest+",
+  "train_rows": 125973,
+  "test_rows": 22544,
+  "features": [
+    "duration",
+    "protocol_type",
+    "service",
+    "flag",
+    "src_bytes",
+    "dst_bytes",
+    "land",
+    "wrong_fragment",
+    "urgent",
+    "hot",
+    "num_failed_logins",
+    "logged_in",
+    "num_compromised",
+    "root_shell",
+    "su_attempted",
+    "num_root",
+    "num_file_creations",
+    "num_shells",
+    "num_access_files",
+    "num_outbound_cmds",
+    "is_host_login",
+    "is_guest_login",
+    "count",
+    "srv_count",
+    "serror_rate",
+    "srv_serror_rate",
+    "rerror_rate",
+    "srv_rerror_rate",
+    "same_srv_rate",
+    "diff_srv_rate",
+    "srv_diff_host_rate",
+    "dst_host_count",
+    "dst_host_srv_count",
+    "dst_host_same_srv_rate",
+    "dst_host_diff_srv_rate",
+    "dst_host_same_src_port_rate",
+    "dst_host_srv_diff_host_rate",
+    "dst_host_serror_rate",
+    "dst_host_srv_serror_rate",
+    "dst_host_rerror_rate",
+    "dst_host_srv_rerror_rate"
+  ],
+  "train_class_counts": {
+    "normal": 67343,
+    "attack": 58630
+  },
+  "test_class_counts": {
+    "normal": 9711,
+    "attack": 12833
+  },
+  "train_missing_cells": 0,
+  "test_missing_cells": 0,
+  "accuracy": 0.7789655784244145,
+  "precision": 0.9686007640878701,
+  "recall": 0.6321982389152965,
+  "f1": 0.7650525720213117,
+  "roc_auc": 0.9658035964536805,
+  "confusion_matrix": [
+    [
+      9448,
+      263
+    ],
+    [
+      4720,
+      8113
+    ]
+  ]
+}
